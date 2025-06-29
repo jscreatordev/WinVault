@@ -43,10 +43,7 @@ A sleek, ultra-secure folder locker for Windows.
 
 ---
 
-## 💻 Screenshots
-
-| Lock View | Unlock View |
-|-----------|-------------|
-| ![](https://softwarebyte.site/winvault/1.png) | ![](https://softwarebyte.site/winvault/2.png) |
+## 💻 UI
+  <img src="https://github.com/jscreatordev/WinVault/blob/main/info/ui.png?raw=true" alt="WinVault UI Preview" width="120">
 
 ---
