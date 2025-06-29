@@ -2,6 +2,8 @@
 
 <p align="center">
   <img src="https://res.cloudinary.com/js-create/image/upload/v1748499815/download_qkvqmw.png" alt="WinVault Logo" width="120">
+  <img src="https://raw.githubusercontent.com/jscreatordev/WinVault/refs/heads/main/info/logo.ico" alt="WinVault Logo" width="120">
+
 </p>
 
 A sleek, ultra-secure folder locker for Windows.  
