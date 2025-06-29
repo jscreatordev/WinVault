@@ -32,7 +32,7 @@ A sleek, ultra-secure folder locker for Windows.
 ## ⚠ Notes
 
 - ❗ **No password recovery** — don’t forget it
-- 🔑 ** If Windows Defender Picks It up, ITS SAFE! If scared use .py version **
+- 🔑 **If Windows Defender Picks It up, ITS SAFE! If scared use .py version**
 - ⚠ Windows only (.exe version)
 - 🐍 For `.py` version:
   - Requires **Python 3.10+**
