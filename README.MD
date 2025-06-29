@@ -44,6 +44,6 @@ A sleek, ultra-secure folder locker for Windows.
 ---
 
 ## 💻 UI
-  <img src="https://github.com/jscreatordev/WinVault/blob/main/info/ui.png?raw=true" alt="WinVault UI Preview" width="120">
+  <img src="https://github.com/jscreatordev/WinVault/blob/main/info/ui.png?raw=true" alt="WinVault UI Preview" width="400">
 
 ---
