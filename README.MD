@@ -1,103 +1,45 @@
 # 🔐 WinVault
 
-**WinVault** is a secure, minimalist file locker for Windows that lets you lock entire folders into encrypted `.wvsb` files using military-grade AES-256 encryption. Only you — with your password — can unlock them.
----
+<p align="center">
+  <img src="https://res.cloudinary.com/js-create/image/upload/v1748499815/download_qkvqmw.png" alt="WinVault Logo" width="120">
+</p>
 
-## 🧩 Features
-
-- 🔒 **AES-256 Encryption**  
-  Your files are encrypted with advanced encryption standards and a password-derived key.
-
-- 🗂️ **One-Click Folder Locking**  
-  Drag-and-drop simplicity: just select a folder and lock it.
-
-- ✨ **Beautiful UI**  
-  Clean, modern dark-mode interface with a real-time password strength meter.
-
-- 💣 **Tamper Protection**  
-  Files are stored as `.wvsb` — unreadable and unusable without the right password.
-
-- ❌ **Auto Delete Source**  
-  After successful encryption, the original folder is permanently deleted for security.
-
-- 🧠 **No Backdoors. No Recovery.**  
-  We don’t store passwords. If you forget your password, your data is gone. Forever.
+A sleek, ultra-secure folder locker for Windows.  
+**Encrypt, delete, and protect — in one click.**
 
 ---
 
-## 🚀 How to Use
+## 🧊 Features
 
-### 🔐 Lock a Folder:
-1. Open **WinVault.exe**
-2. Enter a **strong password**
-3. Click **🔒 Lock Folder**
-4. Choose the folder you want to protect
-5. The app will:
-   - Zip and encrypt the folder
-   - Save it as a `.wvsb` file
-   - **Delete** the original folder
+- AES-256 encryption (.wvsb files)
+- One-click folder locking
+- Password strength meter
+- Deletes original folder after encryption
+- Clean, dark UI
 
-### 🔓 Unlock a `.wvsb` File:
-1. Enter the correct password
-2. Click **🔓 Unlock File**
-3. Choose your `.wvsb` file
-4. Your folder will be restored in the same location
+⬇ **[Download App](https://github.com/jscreatordev/winvault/releases)**
 
 ---
 
-## 📂 File Format
+## 🔓 How It Works
 
-Encrypted files use a custom `.wvsb` extension, but contain:
-- A 16-byte salt
-- A 16-byte IV
-- AES-256-CBC encrypted zip data
-
-Trying to rename or open it manually will corrupt it.
+- Click **Lock Folder** → choose folder → set password → folder becomes `.wvsb`
+- Click **Unlock File** → choose `.wvsb` file → enter password → folder is restored
 
 ---
 
-## 🛑 Warnings
+## ⚠ Notes
 
-- Forgotten password = lost data. No recovery possible.
-- WinVault only works on **Windows** (EXE version).
-- File deletion is permanent — double-check what you lock.
-
----
-
-## 🛠 Requirements
-
-- Windows 10 or later
-- Python 3.10+ (if using `.py` version)
-- Standalone `.exe` version requires no installation
+- **No password recovery** — don’t forget it!
+- Windows only (EXE version)
+- Requires Python 3.10+ for `.py` version
 
 ---
 
-## 🧱 Tech Stack
+## 💻 Screenshots
 
-- Language: Python 3
-- UI: Tkinter (custom styled)
-- Crypto: `cryptography` (PBKDF2 + AES-256-CBC)
-- Bundler: PyInstaller for standalone EXE
-
----
-
-## 📦 Coming Soon
-
-- Cross-platform support (Mac/Linux)
-- Stealth mode (tray icon only)
-- Fake vaults for decoy unlocks
+| Lock View | Unlock View |
+|----------|-------------|
+| ![](https://softwarebyte.site/winvault/1.png) | ![](https://softwarebyte.site/winvault/2.png) |
 
 ---
-
-## 🧊 Example Use Case
-
-- Hide personal files  
-- Lock away work projects  
-- Protect backups from tampering
-
----
-
-## ❤️ Author
-
-**WinVault** was built with simplicity and security in mind.  
-No tracking, no telemetry, no BS. Just clean local file protection.
